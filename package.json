@@ -1,0 +1,20 @@
+{
+  "name": "ipn3.fundaventura.com",
+  "version": "0.0.1",
+  "description": "Recibe las confirmaciones de pago de los proveedores de pago online como Transbank y otros",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdevianne/ipn3.fundaventura.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdevianne/ipn3.fundaventura.com/issues"
+  },
+  "homepage": "https://github.com/gdevianne/ipn3.fundaventura.com#readme"
+}
