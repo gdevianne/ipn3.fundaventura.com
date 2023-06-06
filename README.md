@@ -10,3 +10,7 @@ para configurar
 ## levantar servidor
 
 npm run start
+
+## Transbank integration
+
+[documentacion Transbank](https://www.transbankdevelopers.cl/documentacion/como_empezar?l=javascript#como-empezar)
