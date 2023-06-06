@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gdevianne/ipn3.fundaventura.com/issues"
   },
-  "homepage": "https://github.com/gdevianne/ipn3.fundaventura.com#readme"
+  "homepage": "https://github.com/gdevianne/ipn3.fundaventura.com#readme",
+  "dependencies": {
+    "transbank-sdk": "^4.0.0"
+  }
 }
