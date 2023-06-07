@@ -15,7 +15,9 @@ export class AppController {
     return this.appService.getHelloEd();
   }
   @Post('/webpayIPN')
-  postWebpayIPN(@Body() webpayToken: WebpayTokenDto): string {
-    return this.appService.postWebpayIPN(webpayToken);
+  async postWebpayIPN(@Body() webpayToken: WebpayTokenDto): Promise<string> {
+    const resp = await this.appService.postWebpayIPN(webpayToken);
+
+    return resp;
   }
 }
