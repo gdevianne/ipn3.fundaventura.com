@@ -24,7 +24,16 @@ data:
 
 http://localhost:3000/ed
 
+codigo cliente? prueba 579B532A7440BB0C9079DED94D31EA1615BACEB56610332264630D42D0A36B1C
+
+otro codigo 597055555532
+
 [documentacion Transbank](https://www.transbankdevelopers.cl/documentacion/como_empezar?l=javascript#como-empezar)
+
+
+Tarjeta debito prueba :  4051 8842 3993 7763
+
+rut 11.111.111-1
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
