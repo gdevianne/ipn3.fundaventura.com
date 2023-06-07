@@ -30,6 +30,24 @@ otro codigo 597055555532
 
 [documentacion Transbank](https://www.transbankdevelopers.cl/documentacion/como_empezar?l=javascript#como-empezar)
 
+Cuando verificamos TX con token, devuelve eso
+
+```JSON
+{
+  "vci": "TSY",
+  "amount": 1567,
+  "status": "AUTHORIZED",
+  "buy_order": "O-76011",
+  "session_id": "S-87121",
+  "card_detail": { "card_number": "7763" },
+  "accounting_date": "0607",
+  "transaction_date": "2023-06-07T10:45:16.788Z",
+  "authorization_code": "1415",
+  "payment_type_code": "VD",
+  "response_code": 0,
+  "installments_number": 0
+}
+```
 
 Tarjeta debito prueba :  4051 8842 3993 7763
 
