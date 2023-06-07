@@ -31,6 +31,14 @@ export class AppService {
       ),
     );
     const response = await tx.commit(token_ws);
+    /**
+     * - casos de uso "status": "AUTHORIZED", y otros
+     * - verificar la "buy_order": "O-76011", "session_id": "S-87121", "amount": 1567, en la base de datos
+     * - encontrar runner
+     * - marcar como pagado
+     * - enviar email
+     *  */
+
     const blah = `received ${JSON.stringify(response)}`;
 
     return blah;
