@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "300cb21f-0b58-4f99-adc2-bea72757ee9f",
+		"name": "ipn3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17052430"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/webpayIPN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n      \"token\": \"mi token ED\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/webpayIPN",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"webpayIPN"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/webpayIPN Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n      \"token\": \"mi token ED\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ipn3.tyrproducciones.com/webpayIPN",
+					"protocol": "http",
+					"host": [
+						"ipn3",
+						"tyrproducciones",
+						"com"
+					],
+					"path": [
+						"webpayIPN"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
