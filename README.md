@@ -13,6 +13,8 @@ npm run start
 
 ## Transbank integration
 
+### Notas
+
 test con POSTMAN
 POST http://localhost:3000/webpayIPN
 
@@ -52,6 +54,11 @@ Cuando verificamos TX con token, devuelve eso
 Tarjeta debito prueba :  4051 8842 3993 7763
 
 rut 11.111.111-1
+
+### Flujo
+
+## Nest initial readme
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>

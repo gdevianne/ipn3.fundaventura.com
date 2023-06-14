@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "300cb21f-0b58-4f99-adc2-bea72757ee9f",
+		"_postman_id": "a369c28e-4d6b-4217-bb1a-9f547daeb3fd",
 		"name": "ipn3",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "17052430"
@@ -35,13 +35,13 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:3000/webpayIPN Copy",
+			"name": "http://localhost:3000/webpayIPN Con token prueba válido",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "    {\n      \"token\": \"mi token ED\"\n    }",
+					"raw": "    {\n      \"token\": \"579B532A7440BB0C9079DED94D31EA1615BACEB56610332264630D42D0A36B1C\"\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
